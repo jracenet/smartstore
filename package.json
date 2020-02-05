@@ -1,0 +1,6 @@
+{
+  "devDependencies": {},
+  "dependencies": {
+    "cucumber": "^6.0.5"
+  }
+}
