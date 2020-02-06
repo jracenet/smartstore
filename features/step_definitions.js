@@ -1,25 +1,26 @@
 const { Given, Then, When } = require('cucumber');
+const assert = require('assert');
 
 Given('I have launched the website {string}', function (string) {
-  return 'success';
+  assert.equal(true,true);
 });
 
 Given('I have searched for item {string}', function (string) {
-  return 'success';
+  assert.equal(true,true);
 });
 
 Given('I have navigated to the Product page', function () {
-  return 'success';
+  assert.equal(true,true);
 });
 
 When('I add the item to the cart', function () {
-  return 'success';
+  assert.equal(true,true);
 });
 
 Then('the item {string} should be added to cart', function (string) {
-  return 'success';
+  assert.equal(true,true);
 });
 
 Then('price should equal {string}', function (string) {
-  return 'success';
+  assert.equal(true,true);
 });
