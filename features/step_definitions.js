@@ -17,7 +17,15 @@ When('I add the item to the cart', function () {
   assert.equal(true,true);
 });
 
+When('I select the item to compare', function () {
+  assert.equal(true,true);
+});
+
 Then('the item {string} should be added to cart', function (string) {
+  assert.equal(true,true);
+});
+
+Then('the item {string} should be added to compare list', function (string) {
   assert.equal(true,true);
 });
 
