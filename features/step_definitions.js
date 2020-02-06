@@ -17,11 +17,16 @@ When('I add the item to the cart', function () {
   assert.equal(true,true);
 });
 
-When('I select the item to compare', function () {
+Then('the item {string} should be added to cart', function (string) {
   assert.equal(true,true);
 });
 
-Then('the item {string} should be added to cart', function (string) {
+Then('price should equal {string}', function (string) {
+  assert.equal(true,true);
+});
+
+// compare items
+When('I select the item to compare', function () {
   assert.equal(true,true);
 });
 
@@ -29,6 +34,12 @@ Then('the item {string} should be added to compare list', function (string) {
   assert.equal(true,true);
 });
 
-Then('price should equal {string}', function (string) {
+// Wish list
+When('I select the add to wish list option from th item', function () {
   assert.equal(true,true);
 });
+
+Then('the item {string} should be added to wish list', function (string) {
+  assert.equal(true,true);
+});
+
