@@ -1,4 +1,4 @@
-Feature: compare items
+Feature: Compare items
     "**As a** customer"
     "**I can** select items to compare"
     "**In order to** get the best item"
