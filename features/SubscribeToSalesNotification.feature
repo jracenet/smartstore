@@ -1,0 +1,1 @@
+Feature: Subscribe to sales notification
